@@ -1,0 +1,15 @@
+[
+  {
+    "id" : 1,
+    "name" : "Peter",
+    "contact" : "2390 Pearsh",
+    "company" : "ABC" 
+  },
+  {
+    "id" : 2,
+    "name" : "Evie",
+    "contact" : "6 Ave road",
+    "company" : "ABC" 
+  }
+]
+

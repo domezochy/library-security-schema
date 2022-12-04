@@ -1,0 +1,63 @@
+#%RAML 1.0 Library
+
+types:
+  accountsRec:
+    properties:
+      firstName:
+        type: string
+        required : true
+        example : Herry
+      lastName:
+        type : string
+        required : true
+        example: Evans
+      address:
+        type: address[]
+      phone:
+        type: phone[]
+
+  address:
+    properties:
+      street:
+        type: string
+        required : true
+        example : 34 Heading
+      city:
+        type: string
+        required: true
+        example: Elk Grove
+      state:
+        type: string
+        required: true
+        example: CA
+      country:
+        type: string
+        required: true
+        example: USA
+      postalCode:
+        type: string
+        required: true
+        example: 5480 Pea Tree
+      addressCode:
+        type:  string
+        required: true
+        example: 32345 Ave
+      addressType:
+        type: string
+        required: true
+        example: home/office   
+
+  phone:
+    properties:
+      phoneNumber:
+        type: string
+        required : true
+        example: 314-456-7899
+      phoneType:
+        type: string
+        required: true
+        example: mobile/home
+
+
+
+  errorMessage:

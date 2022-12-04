@@ -1,0 +1,23 @@
+[
+  {
+    "firstName" : "Peter",
+    "lastName" : "Evie",
+    "address" : [
+      {
+        "street" : "34",
+        "city" : "Elk Grove",
+        "state" : "CA",
+        "country" : "",
+        "postalCode" : "",
+        "addressCode": "",
+        "addressType" : ""
+      }
+    ],
+    "phone" : [
+      {
+        "phoneNumber" : "",
+        "phoneType" : ""
+      }
+    ]
+  }
+]
