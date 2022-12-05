@@ -1,0 +1,15 @@
+#%RAML 1.0 SecurityScheme
+type: x-token-authorize
+description: This will make sure that we have token in the authorization header
+describedBy:
+#  headers:
+#    Authorization: 
+#      type: string
+#      required: true
+#    responses:
+#      description: 401 authorized access
+   headers:
+     client-id:
+       type: string
+     client_secret:
+       type: string
